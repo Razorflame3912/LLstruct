@@ -8,6 +8,6 @@ run: LLstruct LLstruct.o LLstruct.c
 	./LLstruct
 
 clean:
-	rm linkedlist
-	rm *.o
-	rm *~
+	rm -f linkedlist
+	rm -f *.o
+	rm -f *~
